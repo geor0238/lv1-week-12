@@ -3,6 +3,8 @@ h1 {
     font-size: 36px;
     font-weight: 137;
 
+    /* for any other font property beyong bold and italic, use font-variation-settings */
+    font-variation-settings: "wdth" 100;
     transition:all 3s;
 }
 
